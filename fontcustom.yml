@@ -73,7 +73,7 @@ output:
 templates:
 - css
 - scss
-#- preview
+- preview
 # - ./fontcustom.scss.template
 
 # preprocessor_path: /assets/fonts

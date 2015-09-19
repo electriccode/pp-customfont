@@ -79,6 +79,7 @@
 .ppc.ppc-direction-rtl:before,
 .ppc.ppc-download:before,
 .ppc.ppc-drop:before,
+.ppc.ppc-dropbox:before,
 .ppc.ppc-earth:before,
 .ppc.ppc-enter:before,
 .ppc.ppc-enter-down:before,
@@ -86,6 +87,7 @@
 .ppc.ppc-exit:before,
 .ppc.ppc-exit-up:before,
 .ppc.ppc-eye:before,
+.ppc.ppc-fb:before,
 .ppc.ppc-file-add:before,
 .ppc.ppc-file-empty:before,
 .ppc.ppc-film-play:before,
@@ -94,6 +96,7 @@
 .ppc.ppc-frame-expand:before,
 .ppc.ppc-funnel:before,
 .ppc.ppc-gift:before,
+.ppc.ppc-gplus:before,
 .ppc.ppc-graduation-hat:before,
 .ppc.ppc-hand:before,
 .ppc.ppc-heart:before,
@@ -102,9 +105,11 @@
 .ppc.ppc-history:before,
 .ppc.ppc-home:before,
 .ppc.ppc-hourglass:before,
+.ppc.ppc-in:before,
 .ppc.ppc-inbox:before,
 .ppc.ppc-indent-decrease:before,
 .ppc.ppc-indent-increase:before,
+.ppc.ppc-instagram:before,
 .ppc.ppc-italic:before,
 .ppc.ppc-keyboard:before,
 .ppc.ppc-laptop:before,
@@ -152,10 +157,12 @@
 .ppc.ppc-question-circle:before,
 .ppc.ppc-redo:before,
 .ppc.ppc-rocket:before,
+.ppc.ppc-rss:before,
 .ppc.ppc-sad:before,
 .ppc.ppc-screen:before,
 .ppc.ppc-select:before,
 .ppc.ppc-shirt:before,
+.ppc.ppc-skype:before,
 .ppc.ppc-smartphone:before,
 .ppc.ppc-smile:before,
 .ppc.ppc-sort-alpha-asc:before,
@@ -181,6 +188,8 @@
 .ppc.ppc-thumbs-up:before,
 .ppc.ppc-train:before,
 .ppc.ppc-trash:before,
+.ppc.ppc-tumblr:before,
+.ppc.ppc-twitter:before,
 .ppc.ppc-underline:before,
 .ppc.ppc-undo:before,
 .ppc.ppc-unlink:before,
@@ -192,7 +201,8 @@
 .ppc.ppc-volume-low:before,
 .ppc.ppc-volume-medium:before,
 .ppc.ppc-warning:before,
-.ppc.ppc-wheelchair:before {
+.ppc.ppc-wheelchair:before,
+.ppc.ppc-youtube:before {
   display: inline-block;
   font-family: "pp-customfont";
   font-style: normal;
@@ -263,6 +273,7 @@
 .ppc.ppc-direction-rtl:before { content: "\f135"; }
 .ppc.ppc-download:before { content: "\f136"; }
 .ppc.ppc-drop:before { content: "\f137"; }
+.ppc.ppc-dropbox:before { content: "\f1ac"; }
 .ppc.ppc-earth:before { content: "\f138"; }
 .ppc.ppc-enter:before { content: "\f139"; }
 .ppc.ppc-enter-down:before { content: "\f13a"; }
@@ -270,6 +281,7 @@
 .ppc.ppc-exit:before { content: "\f13c"; }
 .ppc.ppc-exit-up:before { content: "\f13d"; }
 .ppc.ppc-eye:before { content: "\f13e"; }
+.ppc.ppc-fb:before { content: "\f1ad"; }
 .ppc.ppc-file-add:before { content: "\f13f"; }
 .ppc.ppc-file-empty:before { content: "\f140"; }
 .ppc.ppc-film-play:before { content: "\f141"; }
@@ -278,6 +290,7 @@
 .ppc.ppc-frame-expand:before { content: "\f144"; }
 .ppc.ppc-funnel:before { content: "\f145"; }
 .ppc.ppc-gift:before { content: "\f146"; }
+.ppc.ppc-gplus:before { content: "\f1ae"; }
 .ppc.ppc-graduation-hat:before { content: "\f147"; }
 .ppc.ppc-hand:before { content: "\f148"; }
 .ppc.ppc-heart:before { content: "\f149"; }
@@ -286,9 +299,11 @@
 .ppc.ppc-history:before { content: "\f14c"; }
 .ppc.ppc-home:before { content: "\f14d"; }
 .ppc.ppc-hourglass:before { content: "\f14e"; }
+.ppc.ppc-in:before { content: "\f1af"; }
 .ppc.ppc-inbox:before { content: "\f14f"; }
 .ppc.ppc-indent-decrease:before { content: "\f150"; }
 .ppc.ppc-indent-increase:before { content: "\f151"; }
+.ppc.ppc-instagram:before { content: "\f1b0"; }
 .ppc.ppc-italic:before { content: "\f152"; }
 .ppc.ppc-keyboard:before { content: "\f153"; }
 .ppc.ppc-laptop:before { content: "\f154"; }
@@ -336,10 +351,12 @@
 .ppc.ppc-question-circle:before { content: "\f17e"; }
 .ppc.ppc-redo:before { content: "\f17f"; }
 .ppc.ppc-rocket:before { content: "\f180"; }
+.ppc.ppc-rss:before { content: "\f1b1"; }
 .ppc.ppc-sad:before { content: "\f181"; }
 .ppc.ppc-screen:before { content: "\f182"; }
 .ppc.ppc-select:before { content: "\f183"; }
 .ppc.ppc-shirt:before { content: "\f184"; }
+.ppc.ppc-skype:before { content: "\f1b2"; }
 .ppc.ppc-smartphone:before { content: "\f185"; }
 .ppc.ppc-smile:before { content: "\f186"; }
 .ppc.ppc-sort-alpha-asc:before { content: "\f187"; }
@@ -365,6 +382,8 @@
 .ppc.ppc-thumbs-up:before { content: "\f19b"; }
 .ppc.ppc-train:before { content: "\f19c"; }
 .ppc.ppc-trash:before { content: "\f19d"; }
+.ppc.ppc-tumblr:before { content: "\f1b3"; }
+.ppc.ppc-twitter:before { content: "\f1ab"; }
 .ppc.ppc-underline:before { content: "\f19e"; }
 .ppc.ppc-undo:before { content: "\f19f"; }
 .ppc.ppc-unlink:before { content: "\f1a0"; }
@@ -377,3 +396,4 @@
 .ppc.ppc-volume-medium:before { content: "\f1a7"; }
 .ppc.ppc-warning:before { content: "\f1a8"; }
 .ppc.ppc-wheelchair:before { content: "\f1a9"; }
+.ppc.ppc-youtube:before { content: "\f1b4"; }

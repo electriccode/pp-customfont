@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "ae1efeb423d4f1e168ac6e1a3e50860e81442da172e9c0eb90ed6a91dc70d546",
-    "current": "ae1efeb423d4f1e168ac6e1a3e50860e81442da172e9c0eb90ed6a91dc70d546"
+    "previous": "4ed7bb4340a6c6852f0dae2867c77ca8591c8ef25ae860ed5f09f560b5e64ee5",
+    "current": "4ed7bb4340a6c6852f0dae2867c77ca8591c8ef25ae860ed5f09f560b5e64ee5"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -234,6 +234,10 @@
       "codepoint": 61751,
       "source": "./svg/drop.svg"
     },
+    "dropbox": {
+      "codepoint": 61868,
+      "source": "./svg/dropbox.svg"
+    },
     "earth": {
       "codepoint": 61752,
       "source": "./svg/earth.svg"
@@ -261,6 +265,10 @@
     "eye": {
       "codepoint": 61758,
       "source": "./svg/eye.svg"
+    },
+    "fb": {
+      "codepoint": 61869,
+      "source": "./svg/fb.svg"
     },
     "file-add": {
       "codepoint": 61759,
@@ -294,6 +302,10 @@
       "codepoint": 61766,
       "source": "./svg/gift.svg"
     },
+    "gplus": {
+      "codepoint": 61870,
+      "source": "./svg/gplus.svg"
+    },
     "graduation-hat": {
       "codepoint": 61767,
       "source": "./svg/graduation-hat.svg"
@@ -326,6 +338,10 @@
       "codepoint": 61774,
       "source": "./svg/hourglass.svg"
     },
+    "in": {
+      "codepoint": 61871,
+      "source": "./svg/in.svg"
+    },
     "inbox": {
       "codepoint": 61775,
       "source": "./svg/inbox.svg"
@@ -337,6 +353,10 @@
     "indent-increase": {
       "codepoint": 61777,
       "source": "./svg/indent-increase.svg"
+    },
+    "instagram": {
+      "codepoint": 61872,
+      "source": "./svg/instagram.svg"
     },
     "italic": {
       "codepoint": 61778,
@@ -526,6 +546,10 @@
       "codepoint": 61824,
       "source": "./svg/rocket.svg"
     },
+    "rss": {
+      "codepoint": 61873,
+      "source": "./svg/rss.svg"
+    },
     "sad": {
       "codepoint": 61825,
       "source": "./svg/sad.svg"
@@ -541,6 +565,10 @@
     "shirt": {
       "codepoint": 61828,
       "source": "./svg/shirt.svg"
+    },
+    "skype": {
+      "codepoint": 61874,
+      "source": "./svg/skype.svg"
     },
     "smartphone": {
       "codepoint": 61829,
@@ -642,6 +670,14 @@
       "codepoint": 61853,
       "source": "./svg/trash.svg"
     },
+    "tumblr": {
+      "codepoint": 61875,
+      "source": "./svg/tumblr.svg"
+    },
+    "twitter": {
+      "codepoint": 61867,
+      "source": "./svg/twitter.svg"
+    },
     "underline": {
       "codepoint": 61854,
       "source": "./svg/underline.svg"
@@ -689,6 +725,10 @@
     "wheelchair": {
       "codepoint": 61865,
       "source": "./svg/wheelchair.svg"
+    },
+    "youtube": {
+      "codepoint": 61876,
+      "source": "./svg/youtube.svg"
     }
   },
   "options": {
@@ -716,11 +756,13 @@
     "quiet": false,
     "templates": [
       "css",
-      "scss"
+      "scss",
+      "preview"
     ]
   },
   "templates": [
     "./font/pp-customfont.css",
-    "./font/_pp-customfont.scss"
+    "./font/_pp-customfont.scss",
+    "./font/pp-customfont-preview.html"
   ]
 }

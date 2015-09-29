@@ -48,6 +48,7 @@
 .ppc.ppc-car:before,
 .ppc.ppc-cart:before,
 .ppc.ppc-chart-bars:before,
+.ppc.ppc-checkmark:before,
 .ppc.ppc-checkmark-circle:before,
 .ppc.ppc-chevron-down:before,
 .ppc.ppc-chevron-down-circle:before,
@@ -79,7 +80,6 @@
 .ppc.ppc-direction-rtl:before,
 .ppc.ppc-download:before,
 .ppc.ppc-drop:before,
-.ppc.ppc-dropbox:before,
 .ppc.ppc-earth:before,
 .ppc.ppc-enter:before,
 .ppc.ppc-enter-down:before,
@@ -109,7 +109,6 @@
 .ppc.ppc-inbox:before,
 .ppc.ppc-indent-decrease:before,
 .ppc.ppc-indent-increase:before,
-.ppc.ppc-instagram:before,
 .ppc.ppc-italic:before,
 .ppc.ppc-keyboard:before,
 .ppc.ppc-laptop:before,
@@ -140,17 +139,20 @@
 .ppc.ppc-paperclip:before,
 .ppc.ppc-paw:before,
 .ppc.ppc-pencil:before,
+.ppc.ppc-percent-tall:before,
 .ppc.ppc-phone:before,
 .ppc.ppc-phone-handset:before,
 .ppc.ppc-picture:before,
 .ppc.ppc-pie-chart:before,
 .ppc.ppc-pilcrow:before,
+.ppc.ppc-plus:before,
 .ppc.ppc-plus-circle:before,
 .ppc.ppc-pointer-down:before,
 .ppc.ppc-pointer-left:before,
 .ppc.ppc-pointer-right:before,
 .ppc.ppc-pointer-up:before,
 .ppc.ppc-poop:before,
+.ppc.ppc-popular:before,
 .ppc.ppc-power-switch:before,
 .ppc.ppc-printer:before,
 .ppc.ppc-pushpin:before,
@@ -201,8 +203,7 @@
 .ppc.ppc-volume-low:before,
 .ppc.ppc-volume-medium:before,
 .ppc.ppc-warning:before,
-.ppc.ppc-wheelchair:before,
-.ppc.ppc-youtube:before {
+.ppc.ppc-wheelchair:before {
   display: inline-block;
   font-family: "pp-customfont";
   font-style: normal;
@@ -242,6 +243,7 @@
 .ppc.ppc-car:before { content: "\f116"; }
 .ppc.ppc-cart:before { content: "\f117"; }
 .ppc.ppc-chart-bars:before { content: "\f118"; }
+.ppc.ppc-checkmark:before { content: "\f1b8"; }
 .ppc.ppc-checkmark-circle:before { content: "\f119"; }
 .ppc.ppc-chevron-down:before { content: "\f11a"; }
 .ppc.ppc-chevron-down-circle:before { content: "\f11b"; }
@@ -273,7 +275,6 @@
 .ppc.ppc-direction-rtl:before { content: "\f135"; }
 .ppc.ppc-download:before { content: "\f136"; }
 .ppc.ppc-drop:before { content: "\f137"; }
-.ppc.ppc-dropbox:before { content: "\f1ac"; }
 .ppc.ppc-earth:before { content: "\f138"; }
 .ppc.ppc-enter:before { content: "\f139"; }
 .ppc.ppc-enter-down:before { content: "\f13a"; }
@@ -303,7 +304,6 @@
 .ppc.ppc-inbox:before { content: "\f14f"; }
 .ppc.ppc-indent-decrease:before { content: "\f150"; }
 .ppc.ppc-indent-increase:before { content: "\f151"; }
-.ppc.ppc-instagram:before { content: "\f1b0"; }
 .ppc.ppc-italic:before { content: "\f152"; }
 .ppc.ppc-keyboard:before { content: "\f153"; }
 .ppc.ppc-laptop:before { content: "\f154"; }
@@ -334,17 +334,20 @@
 .ppc.ppc-paperclip:before { content: "\f16d"; }
 .ppc.ppc-paw:before { content: "\f16e"; }
 .ppc.ppc-pencil:before { content: "\f16f"; }
+.ppc.ppc-percent-tall:before { content: "\f1b7"; }
 .ppc.ppc-phone:before { content: "\f170"; }
 .ppc.ppc-phone-handset:before { content: "\f171"; }
 .ppc.ppc-picture:before { content: "\f172"; }
 .ppc.ppc-pie-chart:before { content: "\f173"; }
 .ppc.ppc-pilcrow:before { content: "\f174"; }
+.ppc.ppc-plus:before { content: "\f1b5"; }
 .ppc.ppc-plus-circle:before { content: "\f175"; }
 .ppc.ppc-pointer-down:before { content: "\f176"; }
 .ppc.ppc-pointer-left:before { content: "\f177"; }
 .ppc.ppc-pointer-right:before { content: "\f178"; }
 .ppc.ppc-pointer-up:before { content: "\f179"; }
 .ppc.ppc-poop:before { content: "\f17a"; }
+.ppc.ppc-popular:before { content: "\f1b6"; }
 .ppc.ppc-power-switch:before { content: "\f17b"; }
 .ppc.ppc-printer:before { content: "\f17c"; }
 .ppc.ppc-pushpin:before { content: "\f17d"; }
@@ -396,7 +399,6 @@
 .ppc.ppc-volume-medium:before { content: "\f1a7"; }
 .ppc.ppc-warning:before { content: "\f1a8"; }
 .ppc.ppc-wheelchair:before { content: "\f1a9"; }
-.ppc.ppc-youtube:before { content: "\f1b4"; }
 
 $font-pp-customfont-alarm: "\f100";
 $font-pp-customfont-apartment: "\f101";
@@ -423,6 +425,7 @@ $font-pp-customfont-camera-video: "\f115";
 $font-pp-customfont-car: "\f116";
 $font-pp-customfont-cart: "\f117";
 $font-pp-customfont-chart-bars: "\f118";
+$font-pp-customfont-checkmark: "\f1b8";
 $font-pp-customfont-checkmark-circle: "\f119";
 $font-pp-customfont-chevron-down: "\f11a";
 $font-pp-customfont-chevron-down-circle: "\f11b";
@@ -454,7 +457,6 @@ $font-pp-customfont-direction-ltr: "\f134";
 $font-pp-customfont-direction-rtl: "\f135";
 $font-pp-customfont-download: "\f136";
 $font-pp-customfont-drop: "\f137";
-$font-pp-customfont-dropbox: "\f1ac";
 $font-pp-customfont-earth: "\f138";
 $font-pp-customfont-enter: "\f139";
 $font-pp-customfont-enter-down: "\f13a";
@@ -484,7 +486,6 @@ $font-pp-customfont-in: "\f1af";
 $font-pp-customfont-inbox: "\f14f";
 $font-pp-customfont-indent-decrease: "\f150";
 $font-pp-customfont-indent-increase: "\f151";
-$font-pp-customfont-instagram: "\f1b0";
 $font-pp-customfont-italic: "\f152";
 $font-pp-customfont-keyboard: "\f153";
 $font-pp-customfont-laptop: "\f154";
@@ -515,17 +516,20 @@ $font-pp-customfont-page-break: "\f16c";
 $font-pp-customfont-paperclip: "\f16d";
 $font-pp-customfont-paw: "\f16e";
 $font-pp-customfont-pencil: "\f16f";
+$font-pp-customfont-percent-tall: "\f1b7";
 $font-pp-customfont-phone: "\f170";
 $font-pp-customfont-phone-handset: "\f171";
 $font-pp-customfont-picture: "\f172";
 $font-pp-customfont-pie-chart: "\f173";
 $font-pp-customfont-pilcrow: "\f174";
+$font-pp-customfont-plus: "\f1b5";
 $font-pp-customfont-plus-circle: "\f175";
 $font-pp-customfont-pointer-down: "\f176";
 $font-pp-customfont-pointer-left: "\f177";
 $font-pp-customfont-pointer-right: "\f178";
 $font-pp-customfont-pointer-up: "\f179";
 $font-pp-customfont-poop: "\f17a";
+$font-pp-customfont-popular: "\f1b6";
 $font-pp-customfont-power-switch: "\f17b";
 $font-pp-customfont-printer: "\f17c";
 $font-pp-customfont-pushpin: "\f17d";
@@ -577,4 +581,3 @@ $font-pp-customfont-volume-low: "\f1a6";
 $font-pp-customfont-volume-medium: "\f1a7";
 $font-pp-customfont-warning: "\f1a8";
 $font-pp-customfont-wheelchair: "\f1a9";
-$font-pp-customfont-youtube: "\f1b4";

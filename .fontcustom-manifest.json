@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "4ed7bb4340a6c6852f0dae2867c77ca8591c8ef25ae860ed5f09f560b5e64ee5",
-    "current": "4ed7bb4340a6c6852f0dae2867c77ca8591c8ef25ae860ed5f09f560b5e64ee5"
+    "previous": "d5aee02caa1a4e93119a1261d49030dabc53580d0b84781a7866df65cab940ed",
+    "current": "d5aee02caa1a4e93119a1261d49030dabc53580d0b84781a7866df65cab940ed"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -109,6 +109,10 @@
     "chart-bars": {
       "codepoint": 61720,
       "source": "./svg/chart-bars.svg"
+    },
+    "checkmark": {
+      "codepoint": 61880,
+      "source": "./svg/checkmark.svg"
     },
     "checkmark-circle": {
       "codepoint": 61721,
@@ -234,10 +238,6 @@
       "codepoint": 61751,
       "source": "./svg/drop.svg"
     },
-    "dropbox": {
-      "codepoint": 61868,
-      "source": "./svg/dropbox.svg"
-    },
     "earth": {
       "codepoint": 61752,
       "source": "./svg/earth.svg"
@@ -353,10 +353,6 @@
     "indent-increase": {
       "codepoint": 61777,
       "source": "./svg/indent-increase.svg"
-    },
-    "instagram": {
-      "codepoint": 61872,
-      "source": "./svg/instagram.svg"
     },
     "italic": {
       "codepoint": 61778,
@@ -478,6 +474,10 @@
       "codepoint": 61807,
       "source": "./svg/pencil.svg"
     },
+    "percent-tall": {
+      "codepoint": 61879,
+      "source": "./svg/percent-tall.svg"
+    },
     "phone": {
       "codepoint": 61808,
       "source": "./svg/phone.svg"
@@ -497,6 +497,10 @@
     "pilcrow": {
       "codepoint": 61812,
       "source": "./svg/pilcrow.svg"
+    },
+    "plus": {
+      "codepoint": 61877,
+      "source": "./svg/plus.svg"
     },
     "plus-circle": {
       "codepoint": 61813,
@@ -521,6 +525,10 @@
     "poop": {
       "codepoint": 61818,
       "source": "./svg/poop.svg"
+    },
+    "popular": {
+      "codepoint": 61878,
+      "source": "./svg/popular.svg"
     },
     "power-switch": {
       "codepoint": 61819,
@@ -725,10 +733,6 @@
     "wheelchair": {
       "codepoint": 61865,
       "source": "./svg/wheelchair.svg"
-    },
-    "youtube": {
-      "codepoint": 61876,
-      "source": "./svg/youtube.svg"
     }
   },
   "options": {

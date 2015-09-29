@@ -185,6 +185,7 @@
 .ppc.ppc-car:before,
 .ppc.ppc-cart:before,
 .ppc.ppc-chart-bars:before,
+.ppc.ppc-checkmark:before,
 .ppc.ppc-checkmark-circle:before,
 .ppc.ppc-chevron-down:before,
 .ppc.ppc-chevron-down-circle:before,
@@ -216,7 +217,6 @@
 .ppc.ppc-direction-rtl:before,
 .ppc.ppc-download:before,
 .ppc.ppc-drop:before,
-.ppc.ppc-dropbox:before,
 .ppc.ppc-earth:before,
 .ppc.ppc-enter:before,
 .ppc.ppc-enter-down:before,
@@ -246,7 +246,6 @@
 .ppc.ppc-inbox:before,
 .ppc.ppc-indent-decrease:before,
 .ppc.ppc-indent-increase:before,
-.ppc.ppc-instagram:before,
 .ppc.ppc-italic:before,
 .ppc.ppc-keyboard:before,
 .ppc.ppc-laptop:before,
@@ -277,17 +276,20 @@
 .ppc.ppc-paperclip:before,
 .ppc.ppc-paw:before,
 .ppc.ppc-pencil:before,
+.ppc.ppc-percent-tall:before,
 .ppc.ppc-phone:before,
 .ppc.ppc-phone-handset:before,
 .ppc.ppc-picture:before,
 .ppc.ppc-pie-chart:before,
 .ppc.ppc-pilcrow:before,
+.ppc.ppc-plus:before,
 .ppc.ppc-plus-circle:before,
 .ppc.ppc-pointer-down:before,
 .ppc.ppc-pointer-left:before,
 .ppc.ppc-pointer-right:before,
 .ppc.ppc-pointer-up:before,
 .ppc.ppc-poop:before,
+.ppc.ppc-popular:before,
 .ppc.ppc-power-switch:before,
 .ppc.ppc-printer:before,
 .ppc.ppc-pushpin:before,
@@ -338,8 +340,7 @@
 .ppc.ppc-volume-low:before,
 .ppc.ppc-volume-medium:before,
 .ppc.ppc-warning:before,
-.ppc.ppc-wheelchair:before,
-.ppc.ppc-youtube:before {
+.ppc.ppc-wheelchair:before {
         display: inline-block;
   font-family: "pp-customfont";
   font-style: normal;
@@ -379,6 +380,7 @@
 .ppc.ppc-car:before { content: "\f116"; }
 .ppc.ppc-cart:before { content: "\f117"; }
 .ppc.ppc-chart-bars:before { content: "\f118"; }
+.ppc.ppc-checkmark:before { content: "\f1b8"; }
 .ppc.ppc-checkmark-circle:before { content: "\f119"; }
 .ppc.ppc-chevron-down:before { content: "\f11a"; }
 .ppc.ppc-chevron-down-circle:before { content: "\f11b"; }
@@ -410,7 +412,6 @@
 .ppc.ppc-direction-rtl:before { content: "\f135"; }
 .ppc.ppc-download:before { content: "\f136"; }
 .ppc.ppc-drop:before { content: "\f137"; }
-.ppc.ppc-dropbox:before { content: "\f1ac"; }
 .ppc.ppc-earth:before { content: "\f138"; }
 .ppc.ppc-enter:before { content: "\f139"; }
 .ppc.ppc-enter-down:before { content: "\f13a"; }
@@ -440,7 +441,6 @@
 .ppc.ppc-inbox:before { content: "\f14f"; }
 .ppc.ppc-indent-decrease:before { content: "\f150"; }
 .ppc.ppc-indent-increase:before { content: "\f151"; }
-.ppc.ppc-instagram:before { content: "\f1b0"; }
 .ppc.ppc-italic:before { content: "\f152"; }
 .ppc.ppc-keyboard:before { content: "\f153"; }
 .ppc.ppc-laptop:before { content: "\f154"; }
@@ -471,17 +471,20 @@
 .ppc.ppc-paperclip:before { content: "\f16d"; }
 .ppc.ppc-paw:before { content: "\f16e"; }
 .ppc.ppc-pencil:before { content: "\f16f"; }
+.ppc.ppc-percent-tall:before { content: "\f1b7"; }
 .ppc.ppc-phone:before { content: "\f170"; }
 .ppc.ppc-phone-handset:before { content: "\f171"; }
 .ppc.ppc-picture:before { content: "\f172"; }
 .ppc.ppc-pie-chart:before { content: "\f173"; }
 .ppc.ppc-pilcrow:before { content: "\f174"; }
+.ppc.ppc-plus:before { content: "\f1b5"; }
 .ppc.ppc-plus-circle:before { content: "\f175"; }
 .ppc.ppc-pointer-down:before { content: "\f176"; }
 .ppc.ppc-pointer-left:before { content: "\f177"; }
 .ppc.ppc-pointer-right:before { content: "\f178"; }
 .ppc.ppc-pointer-up:before { content: "\f179"; }
 .ppc.ppc-poop:before { content: "\f17a"; }
+.ppc.ppc-popular:before { content: "\f1b6"; }
 .ppc.ppc-power-switch:before { content: "\f17b"; }
 .ppc.ppc-printer:before { content: "\f17c"; }
 .ppc.ppc-pushpin:before { content: "\f17d"; }
@@ -533,7 +536,6 @@
 .ppc.ppc-volume-medium:before { content: "\f1a7"; }
 .ppc.ppc-warning:before { content: "\f1a8"; }
 .ppc.ppc-wheelchair:before { content: "\f1a9"; }
-.ppc.ppc-youtube:before { content: "\f1b4"; }
     </style>
 
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -549,7 +551,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>pp-customfont contains 180 glyphs:</h1>
+        <h1>pp-customfont contains 181 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -876,6 +878,19 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-chart-bars" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf118;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-checkmark" class="ppc ppc-checkmark"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-checkmark" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b8;" />
         </div>
       </div>
       
@@ -1284,19 +1299,6 @@
       
       <div class="glyph">
         <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-dropbox" class="ppc ppc-dropbox"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-dropbox" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1ac;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
           <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-earth" class="ppc ppc-earth"></i></span>
         </div>
         <div class="preview-scale">
@@ -1669,19 +1671,6 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-indent-increase" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf151;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-instagram" class="ppc ppc-instagram"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-instagram" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b0;" />
         </div>
       </div>
       
@@ -2077,6 +2066,19 @@
       
       <div class="glyph">
         <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-percent-tall" class="ppc ppc-percent-tall"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-percent-tall" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b7;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
           <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-phone" class="ppc ppc-phone"></i></span>
         </div>
         <div class="preview-scale">
@@ -2137,6 +2139,19 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-pilcrow" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf174;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-plus" class="ppc ppc-plus"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-plus" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b5;" />
         </div>
       </div>
       
@@ -2215,6 +2230,19 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-poop" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf17a;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-popular" class="ppc ppc-popular"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-popular" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b6;" />
         </div>
       </div>
       
@@ -2878,19 +2906,6 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-wheelchair" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1a9;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ppc.ppc-youtube" class="ppc ppc-youtube"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ppc.ppc-youtube" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf1b4;" />
         </div>
       </div>
       

@@ -202,6 +202,7 @@
 .ppc.ppc-volume-high:before,
 .ppc.ppc-volume-low:before,
 .ppc.ppc-volume-medium:before,
+.ppc.ppc-wallet:before,
 .ppc.ppc-warning:before,
 .ppc.ppc-wheelchair:before {
   display: inline-block;
@@ -397,6 +398,7 @@
 .ppc.ppc-volume-high:before { content: "\f1a5"; }
 .ppc.ppc-volume-low:before { content: "\f1a6"; }
 .ppc.ppc-volume-medium:before { content: "\f1a7"; }
+.ppc.ppc-wallet:before { content: "\f1b9"; }
 .ppc.ppc-warning:before { content: "\f1a8"; }
 .ppc.ppc-wheelchair:before { content: "\f1a9"; }
 
@@ -579,5 +581,6 @@ $font-pp-customfont-volume: "\f1a4";
 $font-pp-customfont-volume-high: "\f1a5";
 $font-pp-customfont-volume-low: "\f1a6";
 $font-pp-customfont-volume-medium: "\f1a7";
+$font-pp-customfont-wallet: "\f1b9";
 $font-pp-customfont-warning: "\f1a8";
 $font-pp-customfont-wheelchair: "\f1a9";

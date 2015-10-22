@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "44897e00c67385e5af3bfd864e80501327c4a54fac490aad9f58066014fd789b",
-    "current": "44897e00c67385e5af3bfd864e80501327c4a54fac490aad9f58066014fd789b"
+    "previous": "0d8efde3324d3e518494e82f39b31d945714cacf5141955bd6ce69822a451567",
+    "current": "0d8efde3324d3e518494e82f39b31d945714cacf5141955bd6ce69822a451567"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -609,6 +609,10 @@
     "star-empty": {
       "codepoint": 61835,
       "source": "./svg/star-empty.svg"
+    },
+    "star-filled": {
+      "codepoint": 61883,
+      "source": "./svg/star-filled.svg"
     },
     "star-half": {
       "codepoint": 61836,

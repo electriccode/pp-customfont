@@ -173,6 +173,7 @@
 .ppc.ppc-spell-check:before,
 .ppc.ppc-star:before,
 .ppc.ppc-star-empty:before,
+.ppc.ppc-star-filled:before,
 .ppc.ppc-star-half:before,
 .ppc.ppc-store:before,
 .ppc.ppc-strikethrough:before,
@@ -370,6 +371,7 @@
 .ppc.ppc-spell-check:before { content: "\f189"; }
 .ppc.ppc-star:before { content: "\f18a"; }
 .ppc.ppc-star-empty:before { content: "\f18b"; }
+.ppc.ppc-star-filled:before { content: "\f1bb"; }
 .ppc.ppc-star-half:before { content: "\f18c"; }
 .ppc.ppc-store:before { content: "\f18d"; }
 .ppc.ppc-strikethrough:before { content: "\f18e"; }
@@ -554,6 +556,7 @@ $font-pp-customfont-sort-amount-asc: "\f188";
 $font-pp-customfont-spell-check: "\f189";
 $font-pp-customfont-star: "\f18a";
 $font-pp-customfont-star-empty: "\f18b";
+$font-pp-customfont-star-filled: "\f1bb";
 $font-pp-customfont-star-half: "\f18c";
 $font-pp-customfont-store: "\f18d";
 $font-pp-customfont-strikethrough: "\f18e";

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "70a569b9cebeeaad73eedd544edd94ba29bf03e0b5113006389aa43bfc66eb31",
-    "current": "70a569b9cebeeaad73eedd544edd94ba29bf03e0b5113006389aa43bfc66eb31"
+    "previous": "44897e00c67385e5af3bfd864e80501327c4a54fac490aad9f58066014fd789b",
+    "current": "44897e00c67385e5af3bfd864e80501327c4a54fac490aad9f58066014fd789b"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -17,6 +17,10 @@
     "apartment": {
       "codepoint": 61697,
       "source": "./svg/apartment.svg"
+    },
+    "archive": {
+      "codepoint": 61882,
+      "source": "./svg/archive.svg"
     },
     "arrow-down": {
       "codepoint": 61698,

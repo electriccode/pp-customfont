@@ -25,6 +25,7 @@
 [data-icon]:before,
 .ppc.ppc-alarm:before,
 .ppc.ppc-apartment:before,
+.ppc.ppc-archive:before,
 .ppc.ppc-arrow-down:before,
 .ppc.ppc-arrow-down-circle:before,
 .ppc.ppc-arrow-left:before,
@@ -221,6 +222,7 @@
 
 .ppc.ppc-alarm:before { content: "\f100"; }
 .ppc.ppc-apartment:before { content: "\f101"; }
+.ppc.ppc-archive:before { content: "\f1ba"; }
 .ppc.ppc-arrow-down:before { content: "\f102"; }
 .ppc.ppc-arrow-down-circle:before { content: "\f103"; }
 .ppc.ppc-arrow-left:before { content: "\f104"; }
@@ -404,6 +406,7 @@
 
 $font-pp-customfont-alarm: "\f100";
 $font-pp-customfont-apartment: "\f101";
+$font-pp-customfont-archive: "\f1ba";
 $font-pp-customfont-arrow-down: "\f102";
 $font-pp-customfont-arrow-down-circle: "\f103";
 $font-pp-customfont-arrow-left: "\f104";

@@ -110,6 +110,7 @@
 .ppc.ppc-inbox:before,
 .ppc.ppc-indent-decrease:before,
 .ppc.ppc-indent-increase:before,
+.ppc.ppc-info-o:before,
 .ppc.ppc-italic:before,
 .ppc.ppc-keyboard:before,
 .ppc.ppc-laptop:before,
@@ -308,6 +309,7 @@
 .ppc.ppc-inbox:before { content: "\f14f"; }
 .ppc.ppc-indent-decrease:before { content: "\f150"; }
 .ppc.ppc-indent-increase:before { content: "\f151"; }
+.ppc.ppc-info-o:before { content: "\f1bc"; }
 .ppc.ppc-italic:before { content: "\f152"; }
 .ppc.ppc-keyboard:before { content: "\f153"; }
 .ppc.ppc-laptop:before { content: "\f154"; }

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "0d8efde3324d3e518494e82f39b31d945714cacf5141955bd6ce69822a451567",
-    "current": "0d8efde3324d3e518494e82f39b31d945714cacf5141955bd6ce69822a451567"
+    "previous": "0071cde45c3cd73dcd57c1da63387c013c331ccc73f21742083599ff1a8308f6",
+    "current": "0071cde45c3cd73dcd57c1da63387c013c331ccc73f21742083599ff1a8308f6"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -357,6 +357,10 @@
     "indent-increase": {
       "codepoint": 61777,
       "source": "./svg/indent-increase.svg"
+    },
+    "info-o": {
+      "codepoint": 61884,
+      "source": "./svg/info-o.svg"
     },
     "italic": {
       "codepoint": 61778,

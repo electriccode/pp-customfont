@@ -96,6 +96,7 @@
 .ppc.ppc-frame-contract:before,
 .ppc.ppc-frame-expand:before,
 .ppc.ppc-funnel:before,
+.ppc.ppc-gear:before,
 .ppc.ppc-gift:before,
 .ppc.ppc-gplus:before,
 .ppc.ppc-graduation-hat:before,
@@ -176,6 +177,7 @@
 .ppc.ppc-star-empty:before,
 .ppc.ppc-star-filled:before,
 .ppc.ppc-star-half:before,
+.ppc.ppc-star-half-solid:before,
 .ppc.ppc-store:before,
 .ppc.ppc-strikethrough:before,
 .ppc.ppc-sun:before,
@@ -295,6 +297,7 @@
 .ppc.ppc-frame-contract:before { content: "\f143"; }
 .ppc.ppc-frame-expand:before { content: "\f144"; }
 .ppc.ppc-funnel:before { content: "\f145"; }
+.ppc.ppc-gear:before { content: "\f1bf"; }
 .ppc.ppc-gift:before { content: "\f146"; }
 .ppc.ppc-gplus:before { content: "\f1ae"; }
 .ppc.ppc-graduation-hat:before { content: "\f147"; }
@@ -375,6 +378,7 @@
 .ppc.ppc-star-empty:before { content: "\f18b"; }
 .ppc.ppc-star-filled:before { content: "\f1bb"; }
 .ppc.ppc-star-half:before { content: "\f18c"; }
+.ppc.ppc-star-half-solid:before { content: "\f1bd"; }
 .ppc.ppc-store:before { content: "\f18d"; }
 .ppc.ppc-strikethrough:before { content: "\f18e"; }
 .ppc.ppc-sun:before { content: "\f18f"; }

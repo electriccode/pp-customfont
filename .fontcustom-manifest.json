@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "0071cde45c3cd73dcd57c1da63387c013c331ccc73f21742083599ff1a8308f6",
-    "current": "0071cde45c3cd73dcd57c1da63387c013c331ccc73f21742083599ff1a8308f6"
+    "previous": "1d3b9a13cc30ef1d2c90ef6002578dbb0df6a70b7bed339801d1c07838797e67",
+    "current": "1d3b9a13cc30ef1d2c90ef6002578dbb0df6a70b7bed339801d1c07838797e67"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -301,6 +301,10 @@
     "funnel": {
       "codepoint": 61765,
       "source": "./svg/funnel.svg"
+    },
+    "gear": {
+      "codepoint": 61887,
+      "source": "./svg/gear.svg"
     },
     "gift": {
       "codepoint": 61766,
@@ -621,6 +625,10 @@
     "star-half": {
       "codepoint": 61836,
       "source": "./svg/star-half.svg"
+    },
+    "star-half-solid": {
+      "codepoint": 61885,
+      "source": "./svg/star-half-solid.svg"
     },
     "store": {
       "codepoint": 61837,

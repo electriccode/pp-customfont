@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "1d3b9a13cc30ef1d2c90ef6002578dbb0df6a70b7bed339801d1c07838797e67",
-    "current": "1d3b9a13cc30ef1d2c90ef6002578dbb0df6a70b7bed339801d1c07838797e67"
+    "previous": "49d2cad9b4cbe36feea6742d95be360db1a6f1351786e00927b9e81abfc25df7",
+    "current": "49d2cad9b4cbe36feea6742d95be360db1a6f1351786e00927b9e81abfc25df7"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -57,6 +57,10 @@
     "bicycle": {
       "codepoint": 61706,
       "source": "./svg/bicycle.svg"
+    },
+    "blacktie-light-users": {
+      "codepoint": 61892,
+      "source": "./svg/blacktie-light-users.svg"
     },
     "bold": {
       "codepoint": 61707,
@@ -245,6 +249,14 @@
     "earth": {
       "codepoint": 61752,
       "source": "./svg/earth.svg"
+    },
+    "education": {
+      "codepoint": 61890,
+      "source": "./svg/education.svg"
+    },
+    "education-light": {
+      "codepoint": 61891,
+      "source": "./svg/education-light.svg"
     },
     "enter": {
       "codepoint": 61753,
@@ -469,6 +481,10 @@
     "neutral": {
       "codepoint": 61803,
       "source": "./svg/neutral.svg"
+    },
+    "page": {
+      "codepoint": 61888,
+      "source": "./svg/page.svg"
     },
     "page-break": {
       "codepoint": 61804,
@@ -757,6 +773,10 @@
     "wheelchair": {
       "codepoint": 61865,
       "source": "./svg/wheelchair.svg"
+    },
+    "write": {
+      "codepoint": 61889,
+      "source": "./svg/write.svg"
     }
   },
   "options": {

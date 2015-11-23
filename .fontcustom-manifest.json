@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "49d2cad9b4cbe36feea6742d95be360db1a6f1351786e00927b9e81abfc25df7",
-    "current": "49d2cad9b4cbe36feea6742d95be360db1a6f1351786e00927b9e81abfc25df7"
+    "previous": "907df20ef114021dfa5770e31fe28fb079ffb4cb42a17bec3cb647515c8c2e25",
+    "current": "907df20ef114021dfa5770e31fe28fb079ffb4cb42a17bec3cb647515c8c2e25"
   },
   "fonts": [
     "./font/pp-customfont.ttf",
@@ -225,6 +225,10 @@
     "dice": {
       "codepoint": 61746,
       "source": "./svg/dice.svg"
+    },
+    "dice-light": {
+      "codepoint": 61893,
+      "source": "./svg/dice-light.svg"
     },
     "dinner": {
       "codepoint": 61747,

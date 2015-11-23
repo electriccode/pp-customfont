@@ -77,6 +77,7 @@
 .ppc.ppc-database:before,
 .ppc.ppc-diamond:before,
 .ppc.ppc-dice:before,
+.ppc.ppc-dice-light:before,
 .ppc.ppc-dinner:before,
 .ppc.ppc-direction-ltr:before,
 .ppc.ppc-direction-rtl:before,
@@ -283,6 +284,7 @@
 .ppc.ppc-database:before { content: "\f130"; }
 .ppc.ppc-diamond:before { content: "\f131"; }
 .ppc.ppc-dice:before { content: "\f132"; }
+.ppc.ppc-dice-light:before { content: "\f1c5"; }
 .ppc.ppc-dinner:before { content: "\f133"; }
 .ppc.ppc-direction-ltr:before { content: "\f134"; }
 .ppc.ppc-direction-rtl:before { content: "\f135"; }
@@ -476,6 +478,7 @@ $font-pp-customfont-cross-circle: "\f12f";
 $font-pp-customfont-database: "\f130";
 $font-pp-customfont-diamond: "\f131";
 $font-pp-customfont-dice: "\f132";
+$font-pp-customfont-dice-light: "\f1c5";
 $font-pp-customfont-dinner: "\f133";
 $font-pp-customfont-direction-ltr: "\f134";
 $font-pp-customfont-direction-rtl: "\f135";

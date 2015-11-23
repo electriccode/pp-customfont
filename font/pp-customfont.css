@@ -77,6 +77,7 @@
 .ppc.ppc-database:before,
 .ppc.ppc-diamond:before,
 .ppc.ppc-dice:before,
+.ppc.ppc-dice-light:before,
 .ppc.ppc-dinner:before,
 .ppc.ppc-direction-ltr:before,
 .ppc.ppc-direction-rtl:before,
@@ -283,6 +284,7 @@
 .ppc.ppc-database:before { content: "\f130"; }
 .ppc.ppc-diamond:before { content: "\f131"; }
 .ppc.ppc-dice:before { content: "\f132"; }
+.ppc.ppc-dice-light:before { content: "\f1c5"; }
 .ppc.ppc-dinner:before { content: "\f133"; }
 .ppc.ppc-direction-ltr:before { content: "\f134"; }
 .ppc.ppc-direction-rtl:before { content: "\f135"; }

@@ -70,6 +70,7 @@
 .ppc.ppc-code:before,
 .ppc.ppc-coffee-cup:before,
 .ppc.ppc-cog:before,
+.ppc.ppc-college:before,
 .ppc.ppc-construction:before,
 .ppc.ppc-crop:before,
 .ppc.ppc-cross:before,
@@ -277,6 +278,7 @@
 .ppc.ppc-code:before { content: "\f129"; }
 .ppc.ppc-coffee-cup:before { content: "\f12a"; }
 .ppc.ppc-cog:before { content: "\f12b"; }
+.ppc.ppc-college:before { content: "\f1c6"; }
 .ppc.ppc-construction:before { content: "\f12c"; }
 .ppc.ppc-crop:before { content: "\f12d"; }
 .ppc.ppc-cross:before { content: "\f12e"; }
@@ -471,6 +473,7 @@ $font-pp-customfont-cloud-upload: "\f128";
 $font-pp-customfont-code: "\f129";
 $font-pp-customfont-coffee-cup: "\f12a";
 $font-pp-customfont-cog: "\f12b";
+$font-pp-customfont-college: "\f1c6";
 $font-pp-customfont-construction: "\f12c";
 $font-pp-customfont-crop: "\f12d";
 $font-pp-customfont-cross: "\f12e";
